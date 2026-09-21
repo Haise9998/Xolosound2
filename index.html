@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XOLO SOUND | Car Audio</title>
+
+    <linkos.css
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-container">
+
+    <img src="Posibilidad 03.png" alt="Logo Xolo Sound" class="logo-img">
+
+        <div>
+            <h1>XOLO SOUND</h1>
+            <p>14 años haciendo sonar más fuerte tu camino</p>
+        </div>
+
+    </div>
+
+</header>
+
+<section class="historia">
+
+    <h2>Sobre Nosotros</h2>
+
+    <p>
+        XOLO SOUND es un negocio establecido en El Hongo, Tecate,
+        especializado en audio automotriz, pantallas Android,
+        amplificadores, bocinas, subwoofers y accesorios.
+        Contamos con casi 14 años de experiencia ofreciendo
+        equipos nuevos y seminuevos cuidadosamente seleccionados.
+    </p>
+
+</section>
+
+<section class="controles">
+
+    <input
+        type="text"
+        id="busqueda"
+        placeholder="Buscar producto..."
+        onkeyup="buscarProducto()"
+    >
+
+    <select id="categoria" onchange="filtrarCategoria()">
+        <option value="todos">Todas las categorías</option>
+        <option value="nuevo">Nuevos</option>
+        <option value="seminuevo">Seminuevos</option>
+        <option value="audio">Audio</option>
+        <option value="pantalla">Pantallas</option>
+        <option value="herramienta">Herramientas</option>
+    </select>
+
+    <button onclick="ordenPrecioAsc()">
+        Precio ↑
+    </button>
+
+    <button onclick="ordenPrecioDesc()">
+        Precio ↓
+    </button>
+
+    <button onclick="ordenNombre()">
+        A-Z
+    </button>
+
+</section>
+
+<section>
+
+    <h2 class="titulo-seccion">
+        Catálogo de Productos
+    </h2>
+
+    <div class="catalogo" id="catalogo"></div>
+
+</section>
+
+<section class="carrito">
+
+    <h2>Carrito</h2>
+
+    <ul id="listaCarrito"></ul>
+
+    <h3 id="total">
+        Total: $0
+    </h3>
+
+</section>
+
+<footer>
+
+    <h3>XOLO SOUND</h3>
+
+    <p>El Hongo, Tecate, Baja California</p>
+
+    <a
+        href="https://wa.me/526650000000"
+        target="_blank"
+        script.jsscript>
+
+</body>
+</html>
